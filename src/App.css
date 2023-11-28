@@ -1,0 +1,78 @@
+body {
+  background-color: #87b8d4;
+  color: #1b4965;
+  text-shadow: 2px 2px 10px #7898a8;
+  font-size: 16px;
+}
+
+.App {
+  text-align: center;
+  animation: fade;
+  animation-duration: 2s;
+}
+
+button {
+  margin-top: 25px;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 32px;
+  width: 75px;
+  background-color: #bee9e8;
+  box-shadow: 4px 4px 5px #1b4965;
+}
+
+button:hover {
+  background-color: #85a1a1;
+}
+
+button:active {
+  background-color: #85a1a1;
+  box-shadow: 1px 1px 5px #1b4965;
+}
+
+input {
+  height: 30px;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #cae9ff;
+  box-shadow: 4px 4px 5px #1b4965;
+}
+
+.location {
+  font-size: 48px;
+}
+
+.condition-icon {
+  height: 100px;
+  width: 100px;
+}
+
+.condition {
+  font-size: 28px;
+  margin-top: -20px;
+}
+
+#head {
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.data-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.data {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0%;
+  }
+}
